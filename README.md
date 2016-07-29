@@ -22,8 +22,6 @@ function transmogrifier(mark) {
 		console.log('input is of the wrong type'); 
 		return;
 	}
-
-generate a random number between 1 and 5
 	
 	var randomNum = Math.floor(Math.random() * 5) + 1;
 	
