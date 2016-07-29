@@ -3,7 +3,10 @@ a short description
 a bit about yourself
 
 
-js
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
 
 var mark = { 
 	form : 'human',
@@ -22,6 +25,8 @@ function transmogrifier(mark) {
 		console.log('input is of the wrong type'); 
 		return;
 	}
+
+	// generate a random number between 1 and 5
 	
 	var randomNum = Math.floor(Math.random() * 5) + 1;
 	
@@ -33,3 +38,4 @@ function transmogrifier(mark) {
   		default : break;
 	}
 }
+```
