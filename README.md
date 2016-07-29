@@ -1,9 +1,9 @@
 # hello-world
-# a short description
-# a bit about yourself
+a short description
+a bit about yourself
 
 
-# js
+js
 
 var mark = { 
 	form : 'human',
@@ -22,8 +22,8 @@ function transmogrifier(mark) {
 		console.log('input is of the wrong type'); 
 		return;
 	}
-	
-	// generate a random number between 1 and 5
+
+generate a random number between 1 and 5
 	
 	var randomNum = Math.floor(Math.random() * 5) + 1;
 	
